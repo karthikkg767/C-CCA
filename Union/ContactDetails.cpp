@@ -20,7 +20,7 @@ int main() {
     } else if (choice == 2) {
         cout << "Enter email: ";
         cin >> contact.email;
-        cout << "Email: " << contact.email;
+        cout << "Email: "<< contact.email;
     } else {
         cout << "Invalid choice";
     }

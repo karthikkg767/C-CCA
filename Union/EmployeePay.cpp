@@ -9,10 +9,8 @@ union Pay {
 int main() {
     Pay employeePay;
     int choice;
-
     cout << "1. Monthly salary\n2. Hourly pay\nChoose: ";
     cin >> choice;
-
     if (choice == 1) {
         cout << "Enter monthly salary: ";
         cin >> employeePay.monthlySalary;

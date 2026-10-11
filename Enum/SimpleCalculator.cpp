@@ -1,12 +1,9 @@
 #include <iostream>
 using namespace std;
-
 enum Operation { ADD = 1, SUBTRACT, MULTIPLY, DIVIDE };
-
 int main() {
     int choice;
     float firstNumber, secondNumber;
-
     cout << "1. Add\n2. Subtract\n3. Multiply\n4. Divide\nChoose an operation: ";
     cin >> choice;
     cout << "Enter two numbers: ";
@@ -27,6 +24,5 @@ int main() {
             break;
         default: cout << "Invalid choice";
     }
-
     return 0;
 }
